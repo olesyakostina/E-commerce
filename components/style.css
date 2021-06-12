@@ -1,0 +1,93 @@
+body {
+    height: 100%;
+    background: url(./image/fancycrave-277756-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.general {
+    background: url(./image/Placeholder.svg);
+    filter: blur(15px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    max-width: 1400px;
+    margin: auto;
+    background: url(./image/Bg.svg);
+    /* filter: blur(15px); */
+}
+.main-modal {
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    text-align: center;
+}
+
+.inner-modal {
+    width: 694px;
+    height: 408px;
+    background-color: #262626;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 159px;
+}
+.close {
+    text-align: end;
+}
+.inner-modal__text {
+    color: #fff;
+    font-size: 21px;
+    font-family: Montserrat;
+    line-height: 1.5;
+    text-align: left;
+    padding: 36px;
+}
+.inner-modal__p {
+    font-size: 23px;
+}
+
+@media all and (max-width: 425px) {
+    .inner-modal {
+        width: 400px;
+        height: 300px;
+    }
+    .inner-modal__text {
+        color: #fff;
+        font-size: 11px;
+        font-family: Montserrat;
+        line-height: 1.5;
+        text-align: center;
+        padding-right: 74px;
+        padding-left: 10px;
+    }
+    .inner-modal__p {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+@media all and (max-width: 320px) {
+    .inner-modal {
+        width: 400px;
+        height: 300px;
+    }
+
+    .inner-modal__text {
+        color: #fff;
+        font-size: 9px;
+        font-family: Montserrat;
+        line-height: 1.5;
+        text-align: center;
+        padding-right: 109px;
+        padding-left: 10px;
+    }
+    .inner-modal__p {
+        font-size: 8px;
+        padding: 10px;
+    }
+}
