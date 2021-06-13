@@ -1,0 +1,135 @@
+/* phone_page */
+body {
+    background: #000;
+}
+.container {
+    max-width: 1400px;
+}
+.phone_page {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.phone__item {
+    width: 300px;
+    height: 635px;
+    margin-left: -120px;
+}
+.phone__items {
+    width: 250px;
+    height: 560px;
+    position: absolute;
+    padding-left: 38px;
+    padding-top: -28px;
+    margin-top: -560px;
+}
+.phone__frame {
+    position: relative;
+}
+.phone__frame2 {
+    padding-left: 170px;
+}
+.phone__items2 {
+    width: 250px;
+    height: 560px;
+    padding-left: 100px;
+    margin-top: -750px;
+}
+.phone__items3 {
+    width: 250px;
+    height: 560px;
+    padding-left: 164px;
+    margin-top: -749px;
+}
+@media all and (max-width: 320px) {
+    .img1 {
+        width: 300px;
+        height: 400px;
+        margin-left: 116px;
+    }
+    .items__img1 {
+        width: 250px;
+        height: 270px;
+        margin-left: 2px;
+        margin-top: -40px;
+    }
+    .img2 {
+        width: 300px;
+        height: 400px;
+        padding-left: 63px;
+    }
+    .items__img2 {
+        width: 250px;
+        height: 270px;
+        margin-left: -2px;
+        margin-top: 380px;
+    }
+    .img3 {
+        width: 300px;
+        height: 400px;
+        padding-left: 112px;
+        padding-top: 100px;
+    }
+    .items__img3 {
+        width: 250px;
+        height: 270px;
+        margin-top: 383px;
+    }
+}
+@media all and (max-width: 425px) {
+    .phone__item {
+        margin-left: -127px;
+    }
+    .phone__item2 {
+        margin-top: 400px;
+        margin-left: -300px;
+        margin-left: -300px;
+    }
+    .phone__items2 {
+        margin-left: -300px;
+    }
+    .img3 {
+        margin-left: -176px;
+    }
+    .items__img3 {
+        margin-left: -180px;
+    }
+}
+@media all and (max-width: 768px) {
+    .phone__item {
+        width: 50px;
+        height: 300px;
+        margin-left: -133px;
+    }
+    .phone__items {
+        width: 50px;
+        height: 300px;
+        position: absolute;
+        padding-left: 33px;
+        padding-top: -28px;
+        margin-top: -223px;
+    }
+
+    .phone__items2 {
+        padding-left: 117px;
+    }
+    .phone__item3 {
+        margin-left: -128px;
+    }
+    .phone__items3 {
+        margin-top: -750px;
+        margin-left: -124px;
+    }
+}
+@media all and (max-width: 1024px) {
+    .phone__item3 {
+        padding-left: 178px;
+        padding-top: 50px;
+    }
+    .phone__items3 {
+        width: 250px;
+        height: 560px;
+        padding-left: 338px;
+        margin-top: -750px;
+    }
+}

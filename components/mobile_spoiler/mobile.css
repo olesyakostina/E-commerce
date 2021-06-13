@@ -1,0 +1,40 @@
+body {
+    background: #ee9e8a45;
+}
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+}
+/* .mobile {
+    width: 320px;
+    height: 518px;
+} */
+.mobile__title {
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 1.5;
+    font-family: Montserrat;
+    opacity: 0.7;
+    text-align: center;
+}
+.mobile__text {
+    font-size: 11px;
+    font-family: Montserrat;
+    opacity: 0.7;
+    padding-left: 40px;
+    margin-top: -376px;
+}
+.mobile__img {
+    width: 276px;
+    height: 40px;
+}
+.mobile__img__item {
+    padding-left: 10px;
+    height: 366px;
+}
+
+.mobile__img__items {
+    height: 225px;
+    padding-left: 28px;
+    width: 255px;
+}
